@@ -1,16 +1,52 @@
-Этот программный модуль предназначен для отслеживания поставок продуктов питания в магазины. 
-Он позволяет управлять информацией о поставках, отслеживать статус поставок и уведомлять пользователей о любых изменениях.
-Модуль разработан на языке C# и использует .NET для обеспечения высокой производительности и надежности.
-## Функциональные возможности 
--**Регистрация поставок** : Возможность добавления новых поставок с указанием деталей, таких как дата, время, поставщик и список продуктов.
--**Отслеживание статуса** : Пользователи могут отслеживать статус каждой поставки (ожидается, в пути, доставлено, отменено). 
-- **Уведомления** : Автоматические уведомления о статусе поставки через электронную почту или SMS.
--**История поставок** : Хранение и просмотр истории всех поставок с возможностью фильтрации по дате и поставщику.
--**Интерфейс пользователя** : Удобный интерфейс для управления и просмотра информации.
-## Технологии 
-- Язык программирования : C#
-- Платформа : .NET
-- База данных : SQLite
-- UI : WPF
-## Установка 
-1. Клонируйте репозиторий: '''bash git clone https://github.com/ваш логин/проект-отслеживания-поставок.git
+# Food Supply Tracking System
+
+## Project Description
+This system is designed to track and manage food product deliveries to retail stores. It provides a comprehensive solution for monitoring inventory, managing suppliers, and tracking delivery schedules.
+
+## Features
+- Supplier management
+- Product inventory tracking
+- Delivery scheduling and monitoring
+- Stock level alerts
+- Delivery status tracking
+- Reporting and analytics
+
+## Technology Stack
+- .NET 6.0
+- WPF for desktop application
+- Entity Framework Core
+- SQL Server
+- MVVM architecture pattern
+
+## Project Structure
+- `FoodSupply.Core` - Core business logic and domain models
+- `FoodSupply.Data` - Data access layer and database context
+- `FoodSupply.UI` - WPF user interface
+- `FoodSupply.Tests` - Unit tests
+
+## Getting Started
+
+### Prerequisites
+- Visual Studio 2022
+- .NET 6.0 SDK
+- SQL Server 2019 or later
+
+### Installation
+1. Clone the repository
+2. Open the solution in Visual Studio
+3. Restore NuGet packages
+4. Update the connection string in `appsettings.json`
+5. Run the database migrations
+6. Build and run the application
+
+## Development
+- `Debug` branch is used for development
+- `Release` branch contains stable releases
+
+## Documentation
+- XML documentation is available in the code
+- UML diagrams are included in the documentation folder
+- User manual is available in the docs folder
+
+## License
+This project is licensed under the MIT License - see the LICENSE file for details 
